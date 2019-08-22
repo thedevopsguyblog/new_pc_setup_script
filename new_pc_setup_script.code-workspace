@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name":	"Root",
+			"path": "/.",
+			"name": "bash_profile",
+			"path": "/Users/nobelw/.bash_profile"	
+		}
+	],
+	"settings": {}
+}
