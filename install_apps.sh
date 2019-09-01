@@ -1,18 +1,10 @@
-#Run this to install all my dev apps 
-
-## Install Xcode
-
+#!/bin/bash
 ## Install brew 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-## Brew Install various apps
-keeweb
-python3
-pipenv
-## Brew cask Install
-docker
-powershell
-## VS code settings
+#Run this to install all my dev apps 
+brew install git
+
 
 ## WIPE AND LOAD SECTION####
 #   !!THIS WILL BRICK YOUR MAC BE SUPER CARFULL!!   #
