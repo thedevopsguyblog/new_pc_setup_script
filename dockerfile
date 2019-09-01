@@ -1,6 +1,5 @@
-FROM archlinux/base
+FROM centos
 
-RUN pacman -Syu
-RUN pacman -S install curl, ruby
+VOLUME [ "/data" ]
 
-COPY ./bash_profile /
+CMD ["Python, ./install_and _deploy_everything.py"]
