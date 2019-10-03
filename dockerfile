@@ -1,5 +1,5 @@
-FROM centos
+FROM centos:latest
 
-VOLUME [ "/data" ]
+VOLUME [ "/mnt1" ]
 
-CMD ["Python, ./install_and _deploy_everything.py"]
+#CMD ["./install_apps.sh"]
