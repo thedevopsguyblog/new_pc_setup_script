@@ -20,6 +20,8 @@ alias ip0='ipconfig getpacket en0'              # ipInfo0:      Get info on conn
 alias top='top -o cpu'                     #dashboard showing mem util live
 alias cdg='cd /Users/nobelw/Projects/github/repo'         #Change dir to my github repo
 alias openlofi='open https://www.youtube.com/watch?v=-FlxM_0S2lA&list=RD-FlxM_0S2lA&start_radio=1&t=3' #Open lofi music channel on youtube
+## Docker formatting
+
 #   ---------------------------------------
 #   Augmented cmds for work
 #   ---------------------------------------
@@ -41,3 +43,5 @@ ssh -i ~/.ssh/aemtrainstack uosssh@10.86.21.170 sudo bash update-and-clear-cache
 #   ---------------------------------------
 #   Misc Commands
 #   ---------------------------------------
+
+alias start-machinesetup="/Users/nobelw/bin/github/repo/new_pc_setup_script/install_apps.sh"
