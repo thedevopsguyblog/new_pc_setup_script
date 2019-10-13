@@ -1,4 +1,5 @@
 #!/bin/bash
+cp 
 echo "Installing all apps under the user profile $LOGNAME (i'll have to sudo)"
 select yn in "Yes" "No"; do
     case $yn in
