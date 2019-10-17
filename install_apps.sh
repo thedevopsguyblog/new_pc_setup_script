@@ -1,27 +1,19 @@
 #!/bin/bash
-cp 
-echo "Installing all apps under the user profile $LOGNAME (i'll have to sudo)"
+
+applist = "applist.json"
+
+echo "Installing all apps homebrew and yum apps under the user profile $LOGNAME (i'll have to sudo)"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) make install; break;;
-        No ) exit;;
+        Yes ) echo "Installing apps";;
+        No ) echo "exiting..." exit;;
     esac
 done
-
-if (  != root )
-    then
-        echo "Elevating Privlidges..." 
-    else
-        echo "Already running as admin"
-fi 
  
 ## Install brew and apps
 echo "installing brew apps..."
 
-## Run python script
-echo "running .py script"
-python ./install_and_deploy_agnostic_OS.py
-#installBrew()
+installapps(applist)
 ##{
 #    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 #    for
@@ -29,10 +21,10 @@ python ./install_and_deploy_agnostic_OS.py
 #}
 
 
-#Run this to install all my dev apps 
-
-#brew install git
-
-## WIPE AND LOAD SECTION####
+## WIPE AND LOAD SECTION
 #   !!THIS WILL BRICK YOUR MAC BE SUPER CARFULL!!   #
 #xcode-select --install
+
+
+
+/content/students/ahpra-registration
