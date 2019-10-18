@@ -1,5 +1,5 @@
 #!/bin/bash
-date=$(date "+%Y_%m_%d%n")
-echo "$date"
-docker build -t ($date}_new_pc_setup_script .
-docker run -it --name={$date}_new_pc_setup_script
+echo "Building new image..."
+date=$(date "+%H-%M-%S_%d_%m_%y")
+docker build -t pcimage:$date .
+docker run --rm -it pcimage:$date
