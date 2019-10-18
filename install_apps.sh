@@ -1,7 +1,10 @@
 #!/bin/bash
+wget -O jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 && chmod +x ./jq && cp jq /usr/bin
+
 cat ./applist.json
 applist=$(cat applist.json)
 echo $applist
+}
 
 #echo "Installing all apps homebrew and yum apps under the user profile $LOGNAME (i'll have to sudo)"
 #select yn in "Yes" "No"; do
