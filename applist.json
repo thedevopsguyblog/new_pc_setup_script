@@ -1,5 +1,8 @@
 {
-    "brewapplist": [   
+  "apps":[
+    {
+  "appGroup":"brewapps",
+    "apps": [   
       "httpie",
       "jq",
       "git",
@@ -16,7 +19,8 @@
       "readline",
       "xz"
       ],
-    
+    }
+    {
       "brewcaskapplist": [
       "docker",
       "google-chrome",
@@ -25,6 +29,8 @@
       "powershell",
       "slack"
     ],
+  }
+  {
       "yumapplist": [
       "wget",
       "ruby",
@@ -33,4 +39,6 @@
       "python3.x86_64",
       "centos-release-scl"
     ]
+  }
+  ]
 }
