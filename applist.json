@@ -1,44 +1,7 @@
 {
-  "apps":[
-    {
-  "appGroup":"brewapps",
-    "apps": [   
-      "httpie",
-      "jq",
-      "git",
-      "awscli",
-      "httpie",
-      "nvm",
-      "openssl@1.1",
-      "python",
-      "sqlite",
-      "gdbm",
-      "icu4c",
-      "openssl",
-      "pipenv",
-      "readline",
-      "xz"
-      ],
-    }
-    {
-      "brewcaskapplist": [
-      "docker",
-      "google-chrome",
-      "keeweb",
-      "postman",
-      "powershell",
-      "slack"
-    ],
-  }
-  {
-      "yumapplist": [
-      "wget",
-      "ruby",
-      "nano",
-      "python3-pip.noarch",
-      "python3.x86_64",
-      "centos-release-scl"
-    ]
-  }
-  ]
+  "caskapps": ["docker", "google-chrome", "keeweb", "postman", "powershell", "slack"],
+
+  "yumlist": ["wget", "ruby", "nano", "python3-pip.noarch", "python3.x86_64", "centos-release-scl"],
+
+  "brew": ["httpie","jq","git","awscli","httpie","nvm","openssl@1.1","python","sqlite","gdbm","icu4c","openssl","pipenv","readline","xz"]
 }
