@@ -3,5 +3,5 @@
 
   "yumlist": ["wget", "ruby", "nano", "python3-pip.noarch", "python3.x86_64", "centos-release-scl"],
 
-  "brew": ["httpie","jq","git","awscli","httpie","nvm","openssl@1.1","python","sqlite","gdbm","icu4c","openssl","pipenv","readline","xz"]
+  "brew": ["httpie","jq","git","awscli","httpie","nvm","openssl@1.1","python","sqlite","gdbm","icu4c","openssl","pipenv","readline","xz", "aws-cdk"]
 }

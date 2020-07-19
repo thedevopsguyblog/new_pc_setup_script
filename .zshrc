@@ -146,7 +146,7 @@ alias build-stage="echo 'Stage-train1...'
 ssh -i ~/.ssh/aemtrainstack uosssh@10.86.21.187 sudo bash update-and-clear-cache.sh
 echo Stage-train2...
 ssh -i ~/.ssh/aemtrainstack uosssh@10.86.21.225 sudo bash update-and-clear-cache.sh"
-#rHold6xVGfdsD3t}A[sgwIUE
+
 alias build-poc="
 echo 'Building POC-D1...'
 ssh -i ~/.ssh/aemtrainstack uos-ssh@10.86.20.205 sudo bash update-and-clear-cache.sh
@@ -156,7 +156,7 @@ echo 'Building POC-D3...'
 ssh -i ~/.ssh/aemtrainstack uos-ssh@10.86.20.203 sudo bash update-and-clear-cache.sh
 "
 
-alias connectaws="python3 /Users/nobelw/Projects/UNIS/gitrepo/aws-sso-cli/connectaws.py" #https://github.sydney.edu.au/ictawspipeline/aws-sso-cli
+alias connectaws="python3 /Users/nobelw/Projects/UNIS/gitrepo/aws-sso-cli/connectaws.py"
 alias connect-devauth1="ssh -i ~/.ssh/aemtrainstack uosssh@10.86.19.203"
 alias connect-devpub1="ssh -i ~/.ssh/aemtrainstack uosssh@10.86.19.248"
 alias connect-devdisp1="ssh -i ~/.ssh/aemtrainstack uosssh@10.86.19.218"

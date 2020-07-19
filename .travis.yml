@@ -1,4 +1,2 @@
 os: osx
-language: bash
-script:
-- bash install_apps.sh
+language: python
